@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>taschenrechner</title>
+    <link rel="stylesheet" href="/Taschenrechner.css" />
+  </head>
+  <body>
+    <div class="Taschenrechner">
+      <div class="text">
+        <span id="Text"></span>
+      </div>
+      <div class="Buttons">
+        <button onclick="NumberClick(this)">1</button>
+        <button onclick="NumberClick(this)">2</button>
+        <button onclick="NumberClick(this)">3</button>
+        <button onclick="Rechnung(this)">+</button>
+        <button onclick="NumberClick(this)">4</button>
+        <button onclick="NumberClick(this)">5</button>
+        <button onclick="NumberClick(this)">6</button>
+        <button onclick="Rechnung(this)">-</button>
+        <button onclick="NumberClick(this)">7</button>
+        <button onclick="NumberClick(this)">8</button>
+        <button onclick="NumberClick(this)">9</button>
+        <button onclick="Rechnung(this)">*</button>
+        <button onclick="NumberClick(this)">0</button>
+        <button onclick="VorzeichenÄndern()">+/-</button>
+        <button onclick="Gleich()">=</button>
+        <button onclick="Rechnung(this)">/</button>
+        <button onclick="Quadrat()">x²</button>
+        <button onclick="Wurzel()">√</button>
+        <button onClick="Clear()">Clear</button>
+      </div>
+    </div>
+    <script src="Taschenrechner.js"></script>
+  </body>
+</html>
